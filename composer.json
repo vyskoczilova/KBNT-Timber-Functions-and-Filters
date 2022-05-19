@@ -1,0 +1,27 @@
+{
+  "name": "vyskocilova/kbnt-timber-functions-and-filters",
+  "type": "library",
+  "description": "Timber plugin functions and filters",
+  "keywords": [
+    "wordpress",
+    "timber"
+  ],
+  "homepage": "https://kybernaut.cz",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Karolína Vyskočilová",
+      "email": "karolina@kybernaut.cz",
+      "homepage": "https://kybernaut.cz",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "KBNT\\TimberFunctionsAndFilters\\": "src/"
+    },
+    "files": [
+      "functions.php"
+    ]
+  }
+}
